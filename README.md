@@ -36,3 +36,6 @@ npm install
 ```
 npm run dev
 ```
+
+一般都需要在需要的嵌套的网页代码中修改X-FRAME-OPTIONS来确认可以被iframe。
+如果是HUE的话,还需要修改hue/desktop/core/src/desktop/templates/common_header_footer_components.mako把HUE页面置为顶层的代码注释掉。
